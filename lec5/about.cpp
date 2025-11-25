@@ -1,0 +1,1 @@
+/*In c++ there is a table of pointer called v-table.This table is present in every generation odf class top implement dyanamic polymorphism. Each table fpor each class contians the pointers to the relevant function which should called during the dyanamic dispatch .    */

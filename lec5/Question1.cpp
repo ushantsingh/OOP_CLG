@@ -29,10 +29,15 @@ void runAppliance(Appliance *k){
 }
 
 int main(){
-    Appliance *t = new Toaster();
-    Appliance *o = new Oven();
+    // Appliance *t = new Toaster();
+    // Appliance *o = new Oven();
 
-    runAppliance(t);
-    runAppliance(o);
+    // runAppliance(t);
+    // runAppliance(o);
 
+    Appliance *t[2] = {new Toaster, new Oven}; //heterogeneous array
+
+    for (int i = 0; i < 2;i++){
+        t[i]->start();
+    }
 }
