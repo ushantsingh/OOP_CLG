@@ -53,11 +53,18 @@ int main(){
     // s2 = "bello";
     // cout << s1.compare(s2) << endl;
 
-    s1 = "aello";
-    s2 = "bello";
-    cout << s1.find("a") << endl;
+    // s1 = "aello";
+    // s2 = "bello";
+    // cout << s1.find("a") << endl;
 
-    cout << s1.find_last_of("l");
+    // cout << s1.find_last_of("l");
 
+    s1 = "mathematics";
+    if(s1.find("ma")!=string::npos){
+        cout << "Found" << endl;
+    }else{
+        cout << "Not Found" << endl;
+    }
 
+    cout << string::npos << endl;
 }
