@@ -1,0 +1,3 @@
+/* Vector is a gereric, flexible & dynamically allocated sequential data structure implemented in the form of arrays. It works nearly same as an array but has several functionalities to make it easy to use.
+
+Snice a vector is a dinamically allocated data structure.  Whenever we try to grow it y adding more elements it reallocates another bigger vector, copies all the elements from the old vector to this new bigger vector. Every sequential STL can be iterated using an iterator class. This class gives us pointers to various locations in the vector and with the help of these pointers we can access or modify a vector.*/
